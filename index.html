@@ -1068,6 +1068,7 @@
                 })).filter(w => w.word);
 
                 filtered = [...words];
+                sortWords('date-desc'); // 預設按最新排序
                 updateStats();
                 renderList();
                 setupDates();
